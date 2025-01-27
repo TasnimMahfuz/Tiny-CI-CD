@@ -30,3 +30,5 @@ build/
 
 # .env file (for environment variables)
 .env
+node_modules
+.vercel
