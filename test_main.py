@@ -12,3 +12,8 @@ def test_hello_func():
     response = client.get("/hello")
     assert response.status_code == 200
     assert response.json() == {"message": "Hello World!"}
+
+def test_another_func():
+    response = client.get("/test")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Another random route added!"}
