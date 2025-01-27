@@ -1,0 +1,32 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+ENV/
+env/
+*.env
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+*.tar.gz
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Pytest
+.cache/
+
+# Uvicorn / FastAPI
+*.log
+
+# .env file (for environment variables)
+.env
