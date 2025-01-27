@@ -1,1 +1,7 @@
-print("Beginning of the project!")
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def hello():
+    return {"message":"Hello There!"}
