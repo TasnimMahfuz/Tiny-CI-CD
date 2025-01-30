@@ -14,6 +14,3 @@ def hello():
 async def another_func():
     return {"message": "Another random route added!"}
 
-@app.get("test_2")
-async def another_func():
-    return {"message": "Another random route added!"}

@@ -19,7 +19,3 @@ def test_another_func():
     assert response.json() == {"message": "Another random route added!"}
 
 
-def test_another_func_2():
-    response = client.get("/test_2")
-    assert response.status_code == 200
-    assert response.json() == {"message": "Another random route added!"}
